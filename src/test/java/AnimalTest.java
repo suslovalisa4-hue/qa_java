@@ -1,14 +1,12 @@
 import com.example.Animal;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class AnimalTest {
-
+//покрыла данный класс, так как увидела не сразу, что его не надо покрывать
     @Test
     @DisplayName("Проверка, что травоядное получает определенную еду")
     public void testGetFoodHerbivore() throws Exception {
